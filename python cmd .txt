@@ -1,0 +1,4 @@
+python -m pip install -U pip
+python -m pip install --user --upgrade pip
+pip --version
+python -m django --version
