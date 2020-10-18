@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello World")
+    return render(request, 'hello/index.html')
 
 
 def dipu(request):
@@ -15,4 +15,4 @@ def ramiza(request):
 
 
 def greating(request, name):
-    return HttpResponse(f"Hello {name.capitalize()}")
+    return render(request, 'hello/greet.html', {'name': name.capitalize()})
