@@ -1,6 +1,8 @@
 h1 {
     font-size: 5rem;
     font-weight: bold;
-    color: orange;
+    color: red;
     text-align: center;
+    font-family: sans-serif;
+
 }
